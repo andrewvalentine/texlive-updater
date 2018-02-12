@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Load job into launchd
+
+/bin/launchctl load -w /Library/LaunchDaemons/your.org.texliveupdater.plist
+
+exit 0

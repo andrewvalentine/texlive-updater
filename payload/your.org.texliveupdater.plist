@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>your.org.texliveupdater</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/TeX/texbin/tlmgr</string>
+		<string>update</string>
+		<string>--self</string>
+		<string>--all</string>
+		<string>--no-require-verification</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
